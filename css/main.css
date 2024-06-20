@@ -593,4 +593,11 @@ table {
         padding: 20px 0px;
         
     }
+    .main-search input[type=text] {
+        width: 53%;
+        max-width: 450px;
+        padding: 20px 24px;
+        border-radius: 36px;
+        border: 2px solid #E0E0E2;
+    }
 }
