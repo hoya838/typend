@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>분석중</title>
+    <!-- 외부 스타일 연결 -->
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
+    <style>
+        .main-loading{
+            width: 28px;
+            height: 28px;
+            background-color: red;
+            position: relative;
+            animation: 5s myanim;
+            animation-iteration-count: 10;
+            margin-top:90px;
+            border-radius: 500px;
+        }
+            @keyframes myanim{
+                0% {
+                    background-color: #00BF40;
+                    left: 0px;
+                    top: 0px;
+                }
+                25% {
+                    background-color: #00BF40;
+                    left: 50%;
+                    top: 0px;
+                }
+                50% {
+                    background-color: #FF9200;
+                    left: 90%;
+                    top: 0px;
+                }
+                75% {
+                    background-color: #FF4242;
+                    left: 50%;
+                    top: 0px;
+                }
+                100% {
+                    background-color: #FF4242;
+                    left: 0%;
+                    top: 0px;
+                }
+            }
+    </style>
+</head>
+<body>
+    <!-- 헤더 -->
+    <div class="hd">
+        <div class="hd-body">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="image/logo.png">
+                </a>
+            </div> 
+            <div class="hd-nav">
+                <a href="login.html">로그인</a>
+                <a href="reg.html">회원가입</a>
+            </div>
+        </div>
+    </div>
+    <div class="cont">
+        <div class="main">
+            <div class="main-scan">
+            <img class="main-banner2" src="image/8.png">
+
+            <p class="scan-title">Airbnb</p>
+            <p class="scan-sub">https://www.airbnb.co.kr/</p>
+            </div>
+            <div class="main-ani">
+                <div class="ani-2">
+                    <div class="main-loading"></div>
+                    <p class="ani-p">웹사이트를 스캔중입니다.</p>
+                </div>
+                <form>
+                    <p>옵션선택</p>
+                    <select>
+                        <option value="op1" selected>행동패턴 분석</option>
+                        <option value="op2">디자인 분석</option>
+                    </select>
+                    <button type="submit"><a href="succ2.html">분석하기</a></button>
+                </form>
+            </div>
+            <div class="main-selec">
+
+            </div>
+        </div>
+        <div class="footer">
+            <p>@typend</p>
+        </div>
+    </div>
+</body>
+</html>
