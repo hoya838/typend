@@ -575,6 +575,7 @@ table {
     .color-ser1,.color-ser2,.color-ser3,.color-ser4,.color-ser5,.color-ser6 {
         width: 50%;
     }
+
 }
 @media (max-width: 764px) {
     .hd {
@@ -587,5 +588,9 @@ table {
       }
       .color-ser1,.color-ser2,.color-ser3,.color-ser4,.color-ser5,.color-ser6 {
         width: 100%;
+    }
+    .succ-headmap-left td,th{
+        padding: 20px 0px;
+        
     }
 }
